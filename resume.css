@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+p {
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-weight: 100
+}
+
+body {
+    font-family: "Gill Sans", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 201, 201);
+    gap: 500px;
+    margin-bottom: 100px;
+
+}
+
+.header2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.header2 a {
+    color: black;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.header2 a:hover {
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+    font-weight: 500;
+}
+
+.header1 h1 {
+    cursor: pointer;
+}
+
+.main1 {
+    width: 100%;
+    height: 352px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px
+}
+
+.main1son1 {
+    width: 573;
+    height: 352px;
+}
+
+.main1son2 {
+    width: 407px;
+    height: 352px;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.main1son1 img {
+    width: 573px;
+    height: 352px;
+}
+
+.main1son2 p {
+    font-size: 13px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.main2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main2son1 {
+    width: 573px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.main2son2 {
+    width: 407px;
+     display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.messi{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2px;
+    
+}
+.main2 p{
+    font-size: 13px;  
+}
+
+
+footer {
+    background-color: rgb(201, 201, 201);
+    width: 100%;
+    height: 100px;
+}
+
+.footer_1 {
+    padding: 35px 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_left {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.footer_right img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
